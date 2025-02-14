@@ -33,9 +33,9 @@ menu:
     - name: 文档
       pageRef: /docs
       weight: 1
-    - name: 博客
-      pageRef: /blog
-      weight: 2
+    # - name: 博客
+    #   pageRef: /blog
+    #   weight: 2
     - name: 支持
       pageRef: /support
       weight: 3
