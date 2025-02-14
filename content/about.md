@@ -1,6 +1,7 @@
 ---
 title: 关于
 type: about
+toc: false
 ---
 
 # 联系我们

@@ -1,6 +1,7 @@
 ---
 title: 支持和帮助
 type: support
+toc: false
 ---
 
 # 支持和帮助
