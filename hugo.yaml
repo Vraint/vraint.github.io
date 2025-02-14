@@ -1,5 +1,7 @@
 # Hugo configuration file
 title: 零栈
+baseURL: "https://vraint.github.io/"
+
 
 enableRobotsTXT: true
 # Parse Git commit
@@ -124,16 +126,16 @@ params:
       # hover | always
       display: hover
 
-  comments:
-    enable: false
-    type: giscus
+  # comments:
+  #   enable: false
+  #   type: giscus
 
     # https://giscus.app/
-    giscus:
-      repo: imfing/hextra
-      repoId: R_kgDOJ9fJag
-      category: General
-      categoryId: DIC_kwDOJ9fJas4CY7gW
+    # giscus:
+    #   repo: imfing/hextra
+    #   repoId: R_kgDOJ9fJag
+    #   category: General
+    #   categoryId: DIC_kwDOJ9fJas4CY7gW
       # mapping: pathname
       # strict: 0
       # reactionsEnabled: 1
