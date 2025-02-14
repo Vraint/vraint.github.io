@@ -9,10 +9,10 @@ type: about
 
 周一至周五  9:00 ~ 12:00,14:00 ~ 18:00, 法定节假日除外
 
-:fontawesome-solid-phone:{: .phone } 0731-85160238
+电话: 0731-85160238
 
-:fontawesome-brands-qq:{: .qq } [2541721182](http://wpa.qq.com/msgrd?v=3&uin=2541721182&site=qq&menu=yes)
+QQ: [2541721182](http://wpa.qq.com/msgrd?v=3&uin=2541721182&site=qq&menu=yes)
 
-微信:fontawesome-brands-weixin:{: .weixin }扫码添加好友:
+微信扫码添加好友:
 
 ![contact-2020-12-02-10-12-26](https://cdn.jsdelivr.net/gh/virain/picture@main/img/contact-2020-12-02-10-12-26.png)

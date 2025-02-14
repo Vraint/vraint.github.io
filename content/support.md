@@ -28,11 +28,9 @@ type: support
 
 #### 清单
 
-??? tip "阿里云"
-    [阿里云云市场](https://shop29568xq0.market.aliyun.com/page/productlist.html?cId=52734001)
+- [阿里云云市场](https://shop29568xq0.market.aliyun.com/page/productlist.html?cId=52734001)
 
-??? tip "腾讯云"
-    [腾讯云云市场](https://market.cloud.tencent.com/stores/1301806853?pageName=all&cids=0&dt=manual)
+- [腾讯云云市场](https://market.cloud.tencent.com/stores/1301806853?pageName=all&cids=0&dt=manual)
 
 ### 购买
 零栈网络在主流的云市场上发布了付费人工服务产品，我们推荐到云市场上购买：
