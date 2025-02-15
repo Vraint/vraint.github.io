@@ -1,136 +1,178 @@
-# Hugo configuration file
+# Hugo 配置文件
 title: 零栈
+
+# 站点URL
 baseURL: "https://vraint.github.io/"
 
+# 站点语言
+languageCode: zh-cn
 
+# 启用 robots.txt 生成
 enableRobotsTXT: true
-# Parse Git commit
+
+# 解析 Git 提交信息
 enableGitInfo: true
-# enableEmoji: false
+
+enableEmoji: true
+
+# 检测中日韩语言实现自动内容分割
 hasCJKLanguage: true
 
+# 默认内容语言（zh-cn 表示简体中文）
+defaultContentLanguage: zh-cn
 
-# import hextra as module
+# 多语言配置
+languages:
+  zh-cn:
+    languageName: 简体中文  # 语言显示名称
+    languageCode: zh-CN     # 语言代码
+    weight: 1               # 权重（优先级）
+  # en:
+  #   languageName: English
+  #   weight: 2
+  #   title: Hextra           # 英文站点标题
+
+# 将 Hextra 主题作为模块导入
 module:
   imports:
   - path: github.com/imfing/hextra
 
+# 内容标记处理配置
 markup:
   highlight:
-    noClasses: false
+    noClasses: false  # 保留语法高亮的 CSS 类
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true    # 允许在 Markdown 中使用原始 HTML
     extensions:
       passthrough:
         delimiters:
-          block: [['\[', '\]'], ['$$', '$$']]
-          inline: [['\(', '\)']]
+          block: [['\[', '\]'], ['$$', '$$']]  # Block-level passthrough
+          inline: [['\(', '\)']]               # Inline passthrough
         enable: true
 
+# 启用行内短代码
 enableInlineShortcodes: true
 
+# 导航菜单配置
 menu:
-  main:
-    - name: 文档
-      pageRef: /docs
-      weight: 1
-    - name: 服务与支持
+  main:                # 主导航菜单
+    - identifier: documentation  # 唯一标识符
+      name: Documentation        # 显示名称
+      pageRef: /docs             # 指向页面路径
+      weight: 1                   # 排序权重
+    # - identifier: showcase
+    #   name: Showcase
+    #   pageRef: /showcase
+    #   weight: 2
+    # - identifier: blog
+    #   name: Blog
+    #   pageRef: /blog
+    #   weight: 3
+    - identifier: support
+      name: Support
       pageRef: /support
-      weight: 2
-    - name: 关于
-      pageRef: /about
-      weight: 3
-    - name: Search
       weight: 4
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 5
+    - name: Search     # 搜索功能菜单项
+      weight: 6
       params:
         type: search
 
-  # sidebar:
-  #   - identifier: more
-  #     name: More
-  #     params:
-  #       type: separator
-  #     weight: 1
-  #   - identifier: about
-  #     name: "About"
-  #     pageRef: "/about"
-  #     weight: 2
-  #   - identifier: hugoDocs
-  #     name: "Hugo Docs ↗"
-  #     url: "https://gohugo.io/documentation/"
-  #     weight: 3
+  sidebar:             # 侧边栏菜单
+    - identifier: more
+      name: More
+      params:
+        type: separator  # 分隔符类型
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+    - identifier: support
+      name: "Support"
+      pageRef: /support
+      weight: 3
 
-
-
+# 站点参数配置
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
-
+  description: 阿里云认证镜像服务商，提供安全合规的云市场镜像解决方案，含企业级应用部署、运维管理及行业定制化镜像服务。专业技术支持团队协助云端环境搭建，助力企业提升服务器部署效率，降低运维成本。
+  
+  # 导航栏设置
   navbar:
-    displayTitle: true
-    displayLogo: true
+    displayTitle: true    # 是否显示标题
+    displayLogo: true     # 是否显示 Logo
     logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
-      # width: 40
-      # height: 20
-      # link: /
-    width: wide
+      path: images/logo.svg       # 白天模式 Logo 路径
+      dark: images/logo-dark.svg  # 暗黑模式 Logo 路径
+      width: 40                   # Logo 宽度
+      height: 20                  # Logo 高度
+      link: /                     # Logo 点击链接
+    width: wide                  # 导航栏宽度（wide=90rem）
 
+  # Page layout setting
+  # 页面布局设置
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: normal
+    width: normal  # 页面内容宽度
 
+  # 主题设置
   theme:
     # light | dark | system
-    default: system
-    displayToggle: true
+    default: system        # 默认主题模式
+    displayToggle: true    # 是否显示主题切换按钮
 
+  # 页脚设置
   footer:
-    enable: true
-    displayCopyright: true
-    displayPoweredBy: true
-    width: normal
+    enable: true           # 启用页脚
+    displayCopyright: true # 显示版权信息
+    displayPoweredBy: false # 隐藏 "Powered by" 信息
+    width: normal          # 页脚内容宽度
 
-  # Display the last modification date
+  # 显示最后修改日期
   displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  dateFormat: "2006-01-02"  # 日期格式（Go 时间模板）
 
-  # Search
-  # flexsearch is enabled by default
+  # 搜索功能配置
   search:
     enable: true
-    type: flexsearch
+    type: flexsearch  # 使用 FlexSearch 搜索引擎
 
     flexsearch:
-      # index page by: content | summary | heading | title
-      index: content
+      index: content  # 索引内容类型（content=全文）
       # full | forward | reverse | strict
-      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-      tokenize: forward
+      # 分词器模式：https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward  # 前向分词模式
 
+  # 取消注释以启用编辑链接功能
   # editURL:
   #   enable: true
   #   base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
 
+  # 博客设置
   blog:
     list:
-      displayTags: true
-      # date | lastmod | publishDate | title | weight
-      sortBy: date
-      sortOrder: desc # or "asc"
+      displayTags: true    # 显示文章标签
+      # 排序方式：date | lastmod | publishDate | title | weight
+      sortBy: date        # 按日期排序
+      sortOrder: desc      # 降序排列（最新优先）
 
+  # 代码高亮设置
   highlight:
     copy:
-      enable: true
+      enable: true         # 启用代码复制按钮
       # hover | always
-      display: hover
+      display: hover       # 鼠标悬停时显示复制按钮
 
+  # 评论系统配置（当前禁用）
   # comments:
   #   enable: false
   #   type: giscus
 
-    # https://giscus.app/
+    # Giscus 配置文档：https://giscus.app/
     # giscus:
     #   repo: imfing/hextra
     #   repoId: R_kgDOJ9fJag
