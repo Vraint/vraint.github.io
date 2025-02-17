@@ -18,10 +18,10 @@ toc: false
 - **运维问题解答**：包括但不限于系统更新、补丁应用等方面的基本运维问题解答。
 
 #### 服务限制
-免费技术支持不包括对软件业务功能使用的指导，也不涵盖复杂或定制化。如果您需要更深入的帮助或者解决镜像相关运维问题，可能需要考虑我们的高级付费支持服务。
+免费技术支持不包括对软件业务功能使用的指导，也不涵盖复杂或定制化的问题。如果您需要更深入的帮助或者解决镜像相关的运维问题，请 [联系我们](/about/#联系方式) 获取付费技术支持服务，以获得针对性的解决方案。
 
-- [阿里云云市场](https://shop29568xq0.market.aliyun.com/page/productlist.html?cId=52734001)
-- [腾讯云云市场](https://market.cloud.tencent.com/stores/1301806853?pageName=all&cids=0&dt=manual)
+<!-- - [阿里云云市场](https://shop29568xq0.market.aliyun.com/page/productlist.html?cId=52734001)
+- [腾讯云云市场](https://market.cloud.tencent.com/stores/1301806853?pageName=all&cids=0&dt=manual) -->
 
 
 通过限定免费技术支持的具体范围，我们旨在为使用零栈网络镜像的用户提供最相关且有效的帮助，同时确保资源的有效分配和服务质量的持续提升。希望这样的调整能够更好地满足您的客户群体的需求。

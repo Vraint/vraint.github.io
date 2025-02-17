@@ -1,7 +1,11 @@
 ---
+title: 使用kubeadm部署 Kubernetes1.32(多主多从架构)
+description: "使用 kubeadm 部署 Kubernetes 1.32 (多主多从架构)"
 type: docs
 prev: false
 next: false
+keywords: k8s,kubeadm,Kubernetes
+url: /docs/install_k8s
 ---
 
 ## 环境准备
@@ -15,10 +19,10 @@ next: false
 ### 容器运行时
 - **容器运行时**: Containerd
 
-### 网络插件
+### 网络插件 {#foo}
 - **网络插件**: Flannel
 
-### Kubernetes 版本
+### Kubernetes 版本 {#123}
 - **版本**: 1.32
 - **软件包仓库**: `pkgs.k8s.io`
 

@@ -10,8 +10,8 @@ languageCode: zh-cn
 # 启用 robots.txt 生成
 enableRobotsTXT: true
 
-# 解析 Git 提交信息
-enableGitInfo: true
+# 解析 Git 提交信息,和上次文档更新时间有关
+# enableGitInfo: true
 
 enableEmoji: true
 
@@ -132,9 +132,9 @@ params:
     displayPoweredBy: false # 隐藏 "Powered by" 信息
     width: normal          # 页脚内容宽度
 
-  # 显示最后修改日期
-  displayUpdatedDate: true
-  dateFormat: "2006-01-02"  # 日期格式（Go 时间模板）
+  # 显示最后修改日期,需要enableGitInfo: true
+  # displayUpdatedDate: true
+  # dateFormat: "2006-01-02"  # 日期格式（Go 时间模板）
 
   # 搜索功能配置
   search:
