@@ -1,6 +1,7 @@
 ---
 title: 文档
-next: first-page
+prev: false
+next: false
 ---
 
 This is a demo of the theme's documentation layout.

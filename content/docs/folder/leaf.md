@@ -1,7 +1,8 @@
 ---
 title: Leaf Page
 type: docs
-prev: docs/folder/
+prev: false
+next: false
 ---
 
 This page is under a folder.

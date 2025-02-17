@@ -100,16 +100,16 @@ menu:
 # 站点参数配置
 params:
   description: 阿里云认证镜像服务商，提供安全合规的云市场镜像解决方案，含企业级应用部署、运维管理及行业定制化镜像服务。专业技术支持团队协助云端环境搭建，助力企业提升服务器部署效率，降低运维成本。
-  
+
   # 导航栏设置
   navbar:
     displayTitle: true    # 是否显示标题
     displayLogo: true     # 是否显示 Logo
     logo:
-      path: images/logo.svg       # 白天模式 Logo 路径
+      path: images/logo.png       # 白天模式 Logo 路径
       dark: images/logo-dark.svg  # 暗黑模式 Logo 路径
       width: 40                   # Logo 宽度
-      height: 20                  # Logo 高度
+      height: 40                  # Logo 高度
       link: /                     # Logo 点击链接
     width: wide                  # 导航栏宽度（wide=90rem）
 

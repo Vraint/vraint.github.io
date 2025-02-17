@@ -1,3 +1,9 @@
+---
+type: docs
+prev: false
+next: false
+---
+
 ## 环境准备
 
 ### 操作系统

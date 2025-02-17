@@ -1,8 +1,8 @@
 ---
 title: Demo Page
 type: docs
-prev: /
-next: docs/folder/
+prev: false
+next: false
 ---
 
 A simple demo page.
