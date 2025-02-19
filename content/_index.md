@@ -34,7 +34,7 @@ layout: hextra-home
     title="多样化的镜像选择"
     subtitle="满足不同业务需求的丰富产品库"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/hextra-doc.webp"
+    image="/images/banner.png"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -42,7 +42,7 @@ layout: hextra-home
     title="快速便捷的部署"
     subtitle="预配置优化系统和工具，节省时间和资源"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="/images/hextra-markdown.webp"
+    image="/images/uptime-kuma.png"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
