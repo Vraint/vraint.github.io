@@ -8,4 +8,4 @@ keywords:
 url: 
 share: true
 ---
-![_index.png](./_attachments/_index.png)
+![_index](./_attachments/_index.png)
