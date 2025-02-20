@@ -3,7 +3,7 @@ title: WordPress
 description: WordPress
 type: docs
 prev: false
-next: true
+next: false
 keywords:
   - " 内容管理系统"
   - wordpress
