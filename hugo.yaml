@@ -145,7 +145,7 @@ params:
       index: content  # 索引内容类型（content=全文）
       # full | forward | reverse | strict
       # 分词器模式：https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-      tokenize: forward  # 前向分词模式
+      tokenize: full  # 前向分词模式
 
   # 取消注释以启用编辑链接功能
   # editURL:
