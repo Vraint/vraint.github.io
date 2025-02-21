@@ -9,6 +9,7 @@ url:
 share: true
 weight: 2
 ---
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
