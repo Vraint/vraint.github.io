@@ -5,7 +5,7 @@ type: docs
 prev: false
 next: false
 keywords: 
-url: 
+url: /docs/db/
 share: true
 weight: 
 ---
