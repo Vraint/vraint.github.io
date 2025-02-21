@@ -9,6 +9,8 @@ url:
 share: true
 weight: 3
 ---
+
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
@@ -25,17 +27,12 @@ weight: 3
 > Advises about risks or negative outcomes of certain actions.
 
 
-
-```mermaid
+``` mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
 ```
-
-
-111111
-
 
 
