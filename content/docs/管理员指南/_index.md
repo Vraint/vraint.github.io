@@ -34,7 +34,8 @@ graph TD;
     C-->D;
 ```
 
-{{< callout emoji="🌐" >}}
-  Hugo can be used to create a wide variety of websites, including blogs, portfolios, documentation sites, and more.
-{{< /callout >}}
+
+111111
+
+
 
