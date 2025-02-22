@@ -1,5 +1,5 @@
 ---
-title: WordPress
+title: WordPress云镜像使用与维护指南
 description: 专为云环境优化的WordPress镜像，支持一键部署
 type: docs
 prev: false
@@ -12,8 +12,6 @@ url: /docs/cms/wordpress
 share: true
 weight: 
 ---
-
-# WordPress云镜像使用与维护指南
 
 ## 一、快速入门
 ### 1.1 镜像启动向导
