@@ -14,4 +14,4 @@ share: true
 
 ## 内容管理系统
 
-![_index](./_attachments/_index.png)
+![_index.png](./_attachments/_index.png)
