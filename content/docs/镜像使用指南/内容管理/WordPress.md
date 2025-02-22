@@ -11,9 +11,10 @@ keywords:
 url: /docs/cms/wordpress
 share: true
 weight: 
+slug: WordPress
 ---
 
-## 一、快速入门
+### 一、快速入门
 ### 1.1 镜像启动向导
 - 控制台操作：登录云平台 → 选择镜像 → 配置实例规格 → 网络设置要点
 - 首次访问配置：获取初始密码 → 安全组开放端口建议 → SSH/Web登录方式对比
